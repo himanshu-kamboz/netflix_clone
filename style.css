@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{margin: 0;
+    padding: 0;
+    color: white;
+    background-color: black;
+}
+header{
+    height: 50px;
+    top: 0;
+}
+nav {
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.navs{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+#home{
+    margin-left: 10px;
+}
+#children{
+    margin-left: auto;
+    margin-right: 20px;
+}
+@media only screen and (max-width: 675px) {
+    .navs{
+        padding: 10px;
+    }
+    #home{
+        margin-left: 5px;
+    }
+    #children{
+        margin-right: 10px;
+    }
+}
+#banner{
+    width: 100%;
+    height: 600px;
+    color: white;
+    background-image: url("moneyheist\ 2.jpg");
+    background-size: cover;
+    position: relative;
+}
+#banner-content{
+    height: 300px;
+    padding: 20px;
+    width: 35%;
+    padding-left: 70px;
+    font-family: Arial, sans-serif;
+    align-content: end;
+}
+#banner-content h2 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 40px;
+}
+button {
+    height: 40px;
+    width: 100px;
+    font-weight: bolder;
+    font-size: large;
+    margin-top: 10px;
+    margin-left: 80px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.6s ease;
+}
+button:hover {
+    background-color: rgb(187, 187, 187);
+    transform: scale(1.2);
+}
+@media only screen and (max-width: 675px) {
+    #banner{
+        height: 400px;
+        width: 100%;
+        background-size: cover;
+    }
+    #banner-content{
+        width: 35%;
+
+        padding-left: 20px;
+    }
+    #banner-content h2 {
+        font-size: 30px;
+    }
+    #banner-content p {
+        font-size: 12px;
+
+    }
+    button {
+        height: 30px;
+        width: 80px;
+        margin-left: 20px;
+    }
+}
+#all-content{
+    display: flex;
+    flex-wrap:wrap;
+    margin-left: 70px;
+    gap: 20px;
+}
+#all-content :hover{
+    transform: scale(1.1);
+}
+#content-1{
+    padding: 20px;
+    margin: 10px;
+    background-image: url(rush\ hour\ 1.jpg);
+    background-size: cover;
+}
+#content-2{
+    padding: 20px;
+    margin: 10px;
+    background-image: url(Chhaava\ Movie\ Vicky\ Kaushal\ Rashmika\ Mandanna\ Wallpapers.jpg);
+    background-size: cover;
+}
+#content-3{
+    padding: 20px;
+    margin: 10px;
+    background-image: url(Minions\ Despicable\ Me\ 2\ 3\ Movie\ Premium\ POSTER\ MADE\ IN\ USA\ -\ MOV584\ _\ eBay.jpg);
+    background-size: cover;
+}
+#content-4{
+    padding: 20px;
+    margin: 10px;
+    background-image: url(Kung\ Fu\ Panda.jpg);
+    background-size: cover;
+}
+#content-5{
+    padding: 20px;
+    margin: 10px;
+    background-image: url(transformer.jpg);
+    background-size: cover;
+}
+#content-6{
+    padding: 20px;
+    margin: 10px;
+    background-image: url(rush\ hour\ 2.jpg);
+    background-size: cover;
+}
+#horror{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 70px;
+    gap: 20px;
+}
+.movies{
+    border-radius: 5px;
+    height: 250px;
+    width: 150px;
+    transition: all 0.6s ease;
+}
+#movie-1{
+    background-image: url("conjuring.jpg");
+    background-size: cover;
+    padding: 20px;
+    margin: 10px;
+}
+#movie-2{
+    background-image: url("counjuring\ 2.jpg");
+    background-size: cover;
+    padding: 20px;
+    margin: 10px;
+}
+#movie-3{
+    background-image: url("The\ Conjuring\ 3\ \(September\ 2020\ -\ Coming\ Soon\)\ [1500\ x\ 2224].jpg");
+    background-size: cover;
+    padding: 20px;
+    margin: 10px;
+}
+#movie-4{
+    background-image: url("Saw\ Annabelle\,\ not\ as\ scary\ as\ I\ thought\ it\ would\ be_.jpg");
+    background-size: cover;
+    padding: 20px;
+    margin: 10px;
+}
+#movie-5{
+    background-image: url("All\ of\ Us\ Are\ Dead\ _\ Original\ Release\ for\ Netflix.jpg");
+    background-size: cover;
+    padding: 20px;
+    margin: 10px;
+}
+#movie-6{
+    padding: 20px;
+    margin: 10px;
+    background-image: url(The-Nun.jpg);
+    background-size: cover;
+}
+h3{
+    padding-top: 20px;
+    margin-left: 60px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 30px;
+}
+#series{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 70px;
+    gap: 20px;
+}
+#series-1 {
+    background-image: url("money-heist.jpg");
+    background-size: cover;
+    padding: 20px;
+    margin: 10px;
+}
+#series-2 {
+    background-image: url("All\ of\ Us\ Are\ Dead\ _\ Original\ Release\ for\ Netflix.jpg");
+    background-size: cover;
+    padding: 20px;
+    margin: 10px;
+}
+#series-3 {
+    background-image: url("doraemon.jpg");
+    background-size: cover;
+    padding: 20px;
+    margin: 10px;
+}
+#series-4 {
+    background-image: url("Squid\ game.jpg");
+    background-size: cover;
+    padding: 20px;
+    margin: 10px;
+}
+#series-5 {
+    background-image: url("it.jpg");
+    background-size: cover;
+    padding: 20px;
+    margin: 10px;
+}
+#series-6{
+    padding: 20px;
+    margin: 10px;
+    background-image: url(1899.jpg);
+    background-size: cover;
+}
+.movies{
+    transition: all 0.5s ease;
+
+}
+.movies:hover {
+    box-shadow: red;
+     transform: scale(1.2);
+}
+@media (max-width: 675px) {
+    .movies{
+        border-radius: 5px;
+        height: 100px;
+        width: 80px;
+        padding: 10px;
+        margin: 5px;
+        transition: all 0.6s ease;
+}
+}
